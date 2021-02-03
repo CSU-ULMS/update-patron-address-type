@@ -23,11 +23,13 @@ python3 update-users.py
 # Crontab Automation:
 On a UNIX/LINUX system you can automate running the program by adding a line in your root crontab such as:
 
-0 6 * * * python3 /<PROGRAM PATH>/update-users.py 2>&1 | mail -s "<EMAIL SUBJECT>" <EMAIL ADDRESS>
+0 6 * * * python3 /PROGRAM_PATH/update-users.py 2>&1 | mail -s "EMAIL_SUBJECT" EMAIL_ADDRESS
   
-Replace <PROGRAM PATH> with your program insall path structure
-Replace <EMAIL SUBJECT> with the a desired subject
-Replace <EMAIL ADDRESS> with the address to receive the program output report
+Replace PROGRAM_PATH with your program insall path structure
+  
+Replace EMAIL_SUBJECT with the a desired subject
+
+Replace EMAIL_ADDRESS with the address to receive the program output report
   
 
 
