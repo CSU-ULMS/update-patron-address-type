@@ -1,7 +1,7 @@
 # update-patron-address-type
 Update Alma users' primary address to include a home address type. User records are changed based on Analytics data. Enables personal delivery requesting for Primo users. 
 
-This program is a derrivative work of the "alma-add-home-address-type-to-preferred-master" program created by Christina Hennessey at CSU Northridge. 
+This program is a derrivative work of the https://github.com/clhennessey/alma-add-home-address-type-to-preferred program created by Christina Hennessey at CSU Northridge. 
 
 CSU patron data is updated automatically by a PeopleSoft patron update process. During the automatic update patron address information is overwritten regardless of any changes in the address information. As a result, any home address type that was manually added to patron records in Alma will be overwritten the next time the patron load process sends updated users. This program updates the changed users and adds home addresses type back to their primary address.
 
